@@ -8,7 +8,6 @@
     "build": "tsc",
     "serve": "node ./build/main.js",
     "dev": "ts-node ./src/main.ts",
-    "start:nodemon": "nodemon ts-node ./src/main.ts",
     "start:dev": "ts-node-dev --respawn ./src/main.ts"
   },
   "devDependencies": {
